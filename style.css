@@ -93,6 +93,7 @@ a.active,a:hover{
 
 
 .section-a {
+  height: 100vh;
   margin: 2rem 0;
 }
 
@@ -114,7 +115,3 @@ a.active,a:hover{
   padding: 1em;
 }
 
-
-.i{
-    color: red;
-}

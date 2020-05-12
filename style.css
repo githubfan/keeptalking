@@ -11,6 +11,9 @@
 }
 body{
   font-family: 'Poppins', sans-serif;
+    opacity: 0;
+    transition: opacity 2s;
+    -webkit-transition: opacity 2s; /* Safari */
 }
 nav{
   background: #FFFFFF;
@@ -41,7 +44,7 @@ a.active,a:hover{
 }
 .checkbtn{
   font-size: 30px;
-  color: white;
+  color: black;
   float: right;
   line-height: 80px;
   margin-right: 40px;

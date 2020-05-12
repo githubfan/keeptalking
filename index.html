@@ -8,21 +8,20 @@
     <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
-<body onload="document.body.style.opacity='1'">
-  
+  <body onload="document.body.style.opacity='1'">
     <nav>
       <input type="checkbox" id="check" />
       <label for="check" class="checkbtn">
         <i class="fas fa-bars"></i>
       </label>
       <label class="logo">
-        <img src="https://svgur.com/i/L1z.svg" width="200px" height="75px" />
+        <img src="https://svgur.com/i/L4A.svg" width="200px" height="75px" />
       </label>
       <ul>
         <li><a href="#">Home </a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Pricing </a></li>
-        <li><a href="#">Contact </a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#pricing">Pricing </a></li>
+        <li><a href="#contact">Contact </a></li>
       </ul>
     </nav>
     <!-- Showcase -->
@@ -35,7 +34,10 @@
             The easiest way to meet online
           </p>
         </div>
-        <img src="https://svgur.com/i/KuP.svg" width="600" height="auto" />
+        <img
+          src="https://svgur.com/i/KuP.svg"
+          style="width:auto;height:450px;margin-left:15px; float: right;"
+        />
       </div>
       <br />
       <img
@@ -47,43 +49,98 @@
 height: auto;"
       />
     </section>
-    <h1>
-      Security
-    </h1>
+    <div id="about">
+      <h1>
+        Security
+      </h1>
+      <br />
+      <h3>
+        <img
+          src="https://images.vexels.com/media/users/3/132074/isolated/preview/0117cb0129593faa02646a8277ca80e3-security-lock-icon-by-vexels.png"
+          style="width:170px;height:170px;margin-left:15px; float: right;"
+        />
+        <br />
+        KeepTalking was built to have a private video conferencing experience.
+        What you say in your meeting, stays in your meeting. No one is able to
+        access your meeting's link unless they enter a password, which you can
+        set. For an extra layer of security, you can set a password for the
+        meeting's link so even if an external person somehow manages to get hold
+        of it, they will not be able to join your meeting.
+      </h3>
+      <br />
+      <br />
+      <h1>
+        Ease of use
+      </h1>
+
+      <h3>
+        <img
+          src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80"
+          style="width:auto;height:170px;margin-left:15px; float: left;"
+        />
+        With a minimal interface, you won't get confused with buttons and menus.
+        You can choose the things that you need, not have unnecessary apps. To
+        join a meeting, you can call in, or join on a computer in browser, or
+        with the desktop application.
+      </h3>
+      <br />
+      <br />
+
+      <h1>
+        Take it to the big stage
+      </h1>
+
+      <h3>
+        Record the meeting to Dropbox or live stream it to YouTube - show your
+        meeting to whoever you want - have a great meeting even if some people
+        can't join.
+      </h3>
+    </div>
     <br />
-    <h3>
-      <img
-        src="https://images.vexels.com/media/users/3/132074/isolated/preview/0117cb0129593faa02646a8277ca80e3-security-lock-icon-by-vexels.png"
-        style="width:170px;height:170px;margin-left:15px; float: right;"
-      />
-    <br/>  KeepTalking was built to have a private video conferencing experience.
-      What you say in your meeting, stays in your meeting. No one is able to
-      access your meeting's link unless they enter a password, which you can
-      set. For an extra layer of security, you can set a password for the
-      meeting's link so even if an external person somehow manages to get hold
-      of it, they will not be able to join your meeting.
-    </h3>
-  <br/>
-  <br/>
-    <h1>
-      Ease of use
-    </h1>
-    <h3>
-      With a minimal interface, you won't get confused with buttons and menus.
-      You can choose the things that you need, not have unnecessary apps. 
-      To join a meeting, you can call in, or join on a computer in browser, or with the 
-      desktop application.
-    </h3>
+    <br />
+    <br />
+    <div id="pricing">
+      <div class="columns">
+        <ul class="price">
+          <li class="header">Basic</li>
+          <li class="grey">£5.99 / Monthly</li>
+          <li>Video Chat - Up to 75 people</li>
+          <li>Screensharing</li>
+          <li>YouTube video sharing</li>
+          <li>Streaming to YouTube</li>
+          <li>In meeting chat</li>
+          <li>Recording to dropbox</li>
+          <li>YouTube video sharing</li>
+          <li>Streaming to YouTube</li>
+          <li class="grey"><a href="#contact" class="button">Contact Us</a></li>
+        </ul>
+      </div>
 
-    <h1>
-      Take it to the big stage
-    </h1>
+      <div class="columns">
+        <ul class="price">
+          <li class="header" style="background-color:#4CAF50">Pro</li>
+          <li class="grey">£10.99 / Monthly</li>
+          <li>25GB Storage</li>
+          <li>25 Emails</li>
+          <li>25 Domains</li>
+          <li>2GB Bandwidth</li>
+          <li class="grey"><a href="#contact" class="button">Contact Us</a></li>
+        </ul>
+      </div>
 
-    <h3>
-      Record the meeting to Dropbox or live stream it to YouTube - show your meeting
-      to whoever you want.
-    </h3>
+      <div class="columns">
+        <ul class="price">
+          <li class="header">Premium</li>
+          <li class="grey">£15.99 / monthly</li>
+          <li>50GB Storage</li>
+          <li>50 Emails</li>
+          <li>50 Domains</li>
+          <li>5GB Bandwidth</li>
+          <li class="grey"><a href="#contact" class="button">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
 
-
+    <div id="contact"></div>
   </body>
 </html>
